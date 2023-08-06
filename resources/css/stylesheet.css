@@ -1,5 +1,6 @@
 .cal-container {
-    border: 3px solid red;
+    border: 3px solid gray; 
+    background-color: lightgray;
     width: 20%;
     height: 20rem;
     display: flex;
@@ -13,9 +14,12 @@ h1 {
 
 #input-section {
     margin-top: 20px;
+    display: flex;
 }
 
 #input-cal {
+    display: inline;
+    width: 98%;
 
 }
 
@@ -25,10 +29,6 @@ h1 {
     height: 10%;
     display: flex;
     justify-content:space-around;
-}
-
-#operators {
-
 }
 
 .buttons, .s-buttons {
